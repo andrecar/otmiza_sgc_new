@@ -18,17 +18,13 @@ class CargoModel extends BaseModel
    // protected $beforeUpdate     = ['#'];
 
     protected $allowedFields = [         
-        'nome',
-        'cargo',        
+        'descricao',
+               
     ];
 
     protected $validationRules = [
-        'nome' => [
-            'label'  => 'NOME',
-            'rules'  => 'required'
-        ],
-        'cargo' => [
-            'label'  => 'CARGO',
+        'descricao' => [
+            'label'  => 'DESCRIÇÃO',
             'rules'  => 'required'
         ]
     ]; 
@@ -42,11 +38,11 @@ class CargoModel extends BaseModel
      */
     public function formDropDown(array $params = null)
     {
-        $this->select('id, cargo');
+        $this->select('id, descricao');
 
         $clientesArray = $this->findAll();
 
-        $optionClientes = array_column($clientesArray, 'cargo', 'id');
+        $optionClientes = array_column($clientesArray, 'descricao', 'id');
 
         $optionSelecione = [
             ''  =>   'Selecione...'

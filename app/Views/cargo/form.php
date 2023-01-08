@@ -5,18 +5,18 @@
 <!-- script para chamada o formulario modal com autofocus -->
 <script type="text/javascript">
 	/**
-	 * Chama o modal Adicionar MARCA
+	 * Chama o modal Adicionar CARGO
 	 */		
 	$(document).ready(function() {
-    $('#modalAdicionarMarca').modal('show');
-	$('#modalAdicionarMarca').on('shown.bs.modal', function () {
+    $('#modalAdicionarCargo').modal('show');
+	$('#modalAdicionarCargo').on('shown.bs.modal', function () {
     $('#descricao').focus();
 })
 	});	
 </script>
 
-<!--## formulário Modal Adicionar MARCA ###-->
-<div class="modal fade bd-example" id="modalAdicionarMarca" tabindex="-1" role="dialog">
+<!--## formulário Modal Adicionar CARGO ###-->
+<div class="modal fade bd-example" id="modalAdicionarCargo" tabindex="-1" role="dialog">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -36,13 +36,13 @@
 				</div>        
 			</div>			
 			<div class="modal-body">				
-				<?php  echo form_open('marca/salvar'); ?>					
+				<?php  echo form_open('cargo/salvar'); ?>					
 				<div class="row justify-content-sm-center ">
 					<div class="row">
 						<div class="form-group">
 							<div class="col-sm-12 col-md-12 text-center">
 								<label for="descricao" class="control-label">DESCRIÇÃO</label>
-								<input type="text" name="descricao" id="descricao" class="form-control" oninput="this.value = this.value.toUpperCase()" value="<?php echo isset($marca) ? $marca['descricao'] : set_value('descricao') ?>">
+								<input type="text" name="descricao" id="descricao" class="form-control" oninput="this.value = this.value.toUpperCase()" value="<?php echo isset($cargo) ? $cargo['descricao'] : set_value('descricao') ?>">
 								<?php if (!empty($errors['descricao'])): ?>
 									<div class="alert alert-danger mt-2">
 										<?php echo $errors['descricao']; ?>
@@ -56,7 +56,7 @@
 					<button type="button" class="btn btn-outline-danger border-radius"  onclick="history.go(-1)">CANCELAR</button>
 					<button type="submit" class="btn btn-outline-dark  border-radius">SALVAR</button>
 				</div>
-				<input type="hidden" name="id" value="<?php echo isset($marca) ? $marca['id'] : set_value('id') ?>">
+				<input type="hidden" name="id" value="<?php echo isset($cargo) ? $cargo['id'] : set_value('id') ?>">
 	
 				<?php  echo form_close(); ?>		
 			</div>

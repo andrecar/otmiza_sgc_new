@@ -22,8 +22,9 @@ class Usuario extends BaseController
         $pesquisar = $this->request->getGet('pesquisar');
 
         $usuarios = $this->usuarioModel
-                        ->addPesquisar($pesquisar, 'nome')
-                        ->orderBy('id', 'desc') 
+                        ->addPesquisar($pesquisar, 'nome', true)
+                        ->addPesquisar($pesquisar, 'login', true)
+                        ->orderBy('nome', 'asc') 
                         ->paginate(5);
 
         $dados = [

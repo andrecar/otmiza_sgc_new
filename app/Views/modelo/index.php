@@ -3,7 +3,7 @@
 <?php echo $this->section('container') ?>
 <?php echo $this->include('_common/header') ; ?>
 
-<!-- INDEX USUÁRIOS -->
+<!-- INDEX MODELO -->
 
 <script>
     function confirmar() {
@@ -15,7 +15,7 @@
 
 </script>
 
-<!-- CardBox usuários -->
+<!-- CardBox MODELO -->
 <div class="row">
 	<div class="col-xl-6">
 		<div class="card-box pd-10 bg-dark text-white mb-2">
@@ -26,7 +26,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Pesquisa de Usuário -->
+	<!-- Pesquisa de MODELO -->
 	<div class="col-xl-6 ">
 		<form class="form-group" method="GET" action="<?php  echo base_url('modelo'); ?>">
 			<div class="form-group d-flex justify-content-center justify-content-sm-between">

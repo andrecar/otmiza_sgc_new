@@ -14,8 +14,7 @@
     }
 </script>
 
-
-<!-- CardBox usuários -->
+<!-- CardBox USUÁRIOS -->
 <div class="row">
 	<div class="col-xl-6">
 		<div class="card-box pd-10 bg-dark text-white mb-2">
@@ -26,12 +25,12 @@
 			</div>
 		</div>
 	</div>
-	<!-- Pesquisa de Usuário -->
+	<!-- Pesquisa de USUÁRIO -->
 	<div class="col-xl-6 ">
 		<form class="form-group" method="GET" action="<?php  echo base_url('usuario'); ?>">
 			<div class="form-group d-flex justify-content-center justify-content-sm-between">
 				<i class="dw dw-search2 my-auto"></i>
-				<input class="form-control search-input mx-2" type="search" name="pesquisar" autocomplete="off" value="<?php // // echo $pesquisar ?>" placeholder="Pesquisar...">
+				<input class="form-control search-input mx-2" type="search" name="pesquisar" autocomplete="off" value="<?php echo $pesquisar ?>" placeholder="Pesquisar...">
 				<button type="submit" class="btn-dark btn-sm mx-2">
 					OK
 				</button>
@@ -43,33 +42,31 @@
 <div class="pd-10 card-box mb-10">
 	<div class="clearfix">				
 		<a href="<?php echo base_url('usuario/formulario') ?>">		
-		<button type="button" class="btn btn-outline-dark border-radius">
+		<button type="button" class="btn btn-outline-dark border-radius mb-2">
 	<i class="micon dw dw-add-user"></i> 
 				NOVO USUÁRIO
 		</button>
 		</a>
 	</div>
 	<div class="card-box">
-		<table class="data-table table hover nowrap">
-			<thead class="text-danger font-italic">
+		<table class="table table-hover table-responsive-xl">
+			<thead>
 				<tr>
-					<th class="table-plus datatable-nosort">ID</th>
 					<th>NOME</th>
 					<th>PERMISÃO</th>
 					<th>LOGIN</th>
 					<th>EMAIL</th>
 					<th>TELEFONE</th>
-					<th class="datatable-nosort text-center">OPÇÕES</th>
-					<th></th>
+					<th class="text-center">OPÇÕES</th>
+					
 				</tr>
 			</thead>
 			<tbody>
 				<?php if (count($usuarios) > 0) : ?>
 					<?php foreach ($usuarios as $usuario) : ?>
-						<?php  $usuario_text = $usuario['permissao_id'] == '1' ? 'class="text-primary"' : 'class="text-dark"' ?>						
+						<?php  $usuario_text = $usuario['permissao_id'] == '1' ? 'class="text-primary"' : 'class="text-success"' ?>						
 						<?php  $usuario_permissao = $usuario['permissao_id'] == '1' ? 'ADMISTRADOR' : 'USUÁRIO'; ?>					
 						<tr <?php  echo $usuario_text ?> >
-							<td class="table-plus font-weight-bolder"><?php echo $usuario['id'] ?></td>
 							<td><?php echo $usuario['nome'] ?></td>
 							<td><?php echo $usuario_permissao ?></td>
 							<td><?php echo $usuario['login'] ?></td>

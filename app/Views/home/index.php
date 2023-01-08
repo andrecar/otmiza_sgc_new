@@ -15,7 +15,7 @@
 		</div>
 	</div>
 </div>
-<!-- Página Home -->
+<!-- Página HOME -->
 <div class="main-container">
 	<div class="pd-ltr-20">
 		<div class="row">

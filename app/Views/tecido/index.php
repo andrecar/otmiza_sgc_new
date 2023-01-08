@@ -12,7 +12,7 @@
     }
 </script>
 
-<!-- CardBox tecido -->
+<!-- CardBox TECIDO -->
 <div class="row">
 	<div class="col-xl-6">
 		<div class="card-box pd-10 bg-dark text-white mb-2">
@@ -23,7 +23,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Pesquisa de Usuário -->
+	<!-- Pesquisa de TECIDO -->
 	<div class="col-xl-6 ">
 		<form class="form-group" method="GET" action="<?php  echo base_url('tecido'); ?>">
 			<div class="form-group d-flex justify-content-center justify-content-sm-between">

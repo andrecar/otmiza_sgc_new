@@ -25,7 +25,13 @@
 					<div class="alert alert-danger mt-2">
 						<?php echo $errors['cargo_id']; ?>
 					</div>
-				<?php endif; ?>					
+				<?php endif; ?>		
+				<div class="text-center mt-2">
+					<a href="<?php echo base_url("cargo") ?> ">
+						<i class="dw dw-edit2"></i> 
+						Adicionar/Editar CARGO
+					</a>
+				</div>						
 			</div>
 		</div>				
 		<div class="row">

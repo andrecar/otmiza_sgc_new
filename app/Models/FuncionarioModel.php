@@ -20,7 +20,7 @@ class FuncionarioModel extends BaseModel
     protected $allowedFields = [        
        'usuarios_id',
        'nome',
-       'cargo_id',
+       'descricao',
        'telefone'
     ]; 
 
@@ -49,7 +49,7 @@ class FuncionarioModel extends BaseModel
             $this->select("
                 funcionarios.id              as  funcionarios_id,
                 funcionarios.nome            as  funcionarios_nome,
-                cargos.cargo                 as  funcionarios_cargo,            
+                cargos.descricao             as  cargo_descricao,            
                 funcionarios.telefone        as  funcionarios_telefone,
             ");
 

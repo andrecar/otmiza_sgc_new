@@ -49,7 +49,7 @@ class Marca extends BaseController
     {
         $dados = [            
             'imagem'        => '../assets/src/images/img_tecido.png',
-            'titulo'        => 'MARCA',            
+            'titulo'        => 'ADICIONAR MARCA',            
         ];
         return view('marca/form', $dados);
     }

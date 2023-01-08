@@ -11,7 +11,7 @@
         return true;    
     }
 </script>
-<!-- CardBox funcionario -->
+<!-- CardBox FUNCIONÁRIO -->
 <div class="row">
 	<div class="col-xl-6">
 		<div class="card-box pd-10 bg-dark text-white mb-2">
@@ -22,7 +22,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Pesquisa de Usuário -->
+	<!-- Pesquisa de FUNCIONÁRIO -->
 	<div class="col-xl-6 ">
 		<form class="form-group" method="GET" action="<?php  echo base_url('funcionario'); ?>">
 			<div class="form-group d-flex justify-content-center justify-content-sm-between">
@@ -61,7 +61,7 @@
 					<?php foreach ($funcionarios as $funcionario) : ?>
 						<tr>
 							<td><?php echo $funcionario['funcionarios_nome'] ?></td>
-							<td><?php echo $funcionario['funcionarios_cargo'] ?></td>
+							<td><?php echo $funcionario['cargo_descricao'] ?></td>
 							<td><?php echo $funcionario['funcionarios_telefone'] ?></td>
 							<td class=" text-center">
 								<div class="dropdown">
