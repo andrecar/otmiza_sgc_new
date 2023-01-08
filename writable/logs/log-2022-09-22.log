@@ -1,0 +1,32 @@
+CRITICAL - 2022-09-22 23:27:47 --> Array to string conversion
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\cliente\index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('cliente/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Cliente.php(42): view('cliente/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Cliente->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-22 23:28:54 --> Array to string conversion
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\cliente\index.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('cliente/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Cliente.php(42): view('cliente/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Cliente->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-22 23:53:38 --> Unsupported operand types: string * int
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('cliente/index', Array, true)
+#3 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Cliente.php(42): view('cliente/index', Array)
+#4 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Cliente->index()
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

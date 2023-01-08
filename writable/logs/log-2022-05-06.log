@@ -1,0 +1,157 @@
+CRITICAL - 2022-05-06 22:19:57 --> Undefined variable: grade
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(69): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 22:44:47 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(69): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 22:45:38 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(69): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 22:45:43 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(69): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 22:47:08 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(69): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 22:47:49 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(69): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 22:47:52 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(69): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 22:48:03 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(69): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 22:48:07 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(69): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 22:48:41 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(69): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-06 23:14:02 --> Too few arguments to function App\Models\GradeModel::getByIdModelo(), 0 passed in C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php on line 113 and exactly 1 expected
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(113): App\Models\GradeModel->getByIdModelo()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->edit('11')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-06 23:14:34 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-05-06 23:14:34 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\otmiza_sgc_new\app\Models\GradeModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(113): App\Models\GradeModel->getByIdModelo(Array)
+#8 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->edit('11')
+#9 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#10 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-06 23:14:59 --> Undefined offset: 11
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->edit('11')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-06 23:23:49 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->edit('11')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-06 23:24:12 --> Undefined variable: gradeModelo
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(126): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->edit('11')
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

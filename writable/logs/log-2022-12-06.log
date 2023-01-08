@@ -1,0 +1,234 @@
+CRITICAL - 2022-12-06 00:06:02 --> Undefined array key "modelo_id"
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo_teste\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo_teste/in...', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\ModeloTeste.php(55): view('modelo_teste/in...', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\ModeloTeste->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModeloTeste))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 00:11:53 --> Undefined variable $url
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\_common\header.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(424): CodeIgniter\View\View->render('_common/header', NULL, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\visualizar.php(4): CodeIgniter\View\View->include('_common/header')
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/visualiz...', Array, true)
+#8 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(194): view('modelo/visualiz...', Array)
+#9 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('21')
+#10 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#11 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-12-06 00:57:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('vendors', 'images', 'modal-img2.jpg')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 00:58:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('vendors', 'images', 'modal-img2.jpg')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 01:00:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('vendors', 'images', 'modal-img1.jpg')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 01:01:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('assets', 'src', 'images', 'modal-img1.jpg')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 22:05:08 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#3 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(198): view('modelo/index', Array)
+#4 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('19')
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 22:05:40 --> Undefined variable $pesquisar
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(198): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('19')
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 22:06:42 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#3 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(199): view('modelo/index', Array)
+#4 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('19')
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 22:07:16 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#3 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(200): view('modelo/index', Array)
+#4 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('19')
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 22:07:20 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#3 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(200): view('modelo/index', Array)
+#4 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('19')
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 22:07:33 --> count(): Argument #1 ($var) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#3 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(200): view('modelo/index', Array)
+#4 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('19')
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 22:09:09 --> Undefined variable $pesquisar
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(213): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('19')
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 22:10:11 --> Undefined variable $pesquisar
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(213): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('19')
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 22:10:16 --> Undefined variable $pesquisar
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(213): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('19')
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 22:18:38 --> Undefined array key "id"
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(53): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 22:20:15 --> Undefined array key "id"
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(53): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 22:20:27 --> Undefined array key "modelo_id"
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(53): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 22:22:19 --> Too few arguments to function App\Controllers\Modelo::index(), 0 passed in C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-06 22:31:27 --> Undefined array key "id"
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(54): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 22:31:54 --> Undefined array key "id"
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(54): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 22:32:24 --> Array to string conversion
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(54): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 22:41:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('js', 'bootstrap.js')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-06 22:47:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->visualizar('assets', 'src', 'plugins', 'bootstrap', 'bootstrap.js')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

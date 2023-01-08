@@ -1,0 +1,119 @@
+CRITICAL - 2022-05-12 20:47:19 --> Undefined variable: gradeModelos
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(70): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-12 20:59:23 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#2 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(128): view('modelo/form', Array)
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->edit('10')
+#4 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 22:05:10 --> Undefined variable: gradeModelos
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\form.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/form', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(70): view('modelo/form', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->formulario()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-12 22:35:53 --> Undefined index: grade
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(48): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-12 22:49:30 --> Call to a member function getByIdModelo() on array
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-12 22:50:39 --> Call to a member function getByIdModelo() on array
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-12 22:51:04 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('modelo')
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('modelo')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-12 22:51:22 --> Undefined index: id
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-12 22:57:13 --> Unknown column 'grade.tamanho' in 'field list'
+CRITICAL - 2022-05-12 22:57:13 --> Unknown column 'grade.tamanho' in 'field list'
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `modelos...', 0)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `modelos...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `modelos...')
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `modelos...', Array, false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\otmiza_sgc_new\app\Models\ModeloModel.php(62): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(36): App\Models\ModeloModel->getAllClientes()
+#8 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#9 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#10 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-12 22:58:18 --> Undefined index: grade_tamanho
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Views\modelo\index.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Common.php(1089): CodeIgniter\View\View->render('modelo/index', Array, true)
+#4 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Modelo.php(52): view('modelo/index', Array)
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#6 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#7 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-12 23:04:13 --> Call to a member function getByIdModelo() on array
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-12 23:06:07 --> Call to a member function getByIdModelo() on array
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-12 23:06:16 --> Call to a member function getByIdModelo() on array
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Modelo->index()
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-12 23:07:34 --> syntax error, unexpected '$dados' (T_VARIABLE)
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('modelo')
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('modelo')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
