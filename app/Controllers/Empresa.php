@@ -143,6 +143,12 @@ class Empresa extends BaseController
         }
     }
 
+    /**
+     * Abre a view VISUALIZAR EMPRESA
+     *
+     * @param [type] $id
+     * @return void
+     */
     public function visualizar($id)
     {
         $empresa = $this->empresaModel->find($id);

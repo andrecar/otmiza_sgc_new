@@ -63,7 +63,7 @@
 			</thead>
 			<tbody>
 				<?php foreach ($empresas as $empresa) : ?>
-				<?php $empresa_text_color = $empresa['tipo_empresa'] == 'MATRIZ'? 'class="text-primary"' : 'class="text-dark"' ?>					
+				<?php $empresa_text_color = $empresa['tipo_empresa'] == 'MATRIZ'? 'class="text-primary"' : 'class="text-success"' ?>					
 				<tr <?php echo $empresa_text_color ?> >
 					<td><?php echo $empresa['fantasia'] ?></td>
 					<td><?php echo $empresa['tipo_empresa'] ?></td>

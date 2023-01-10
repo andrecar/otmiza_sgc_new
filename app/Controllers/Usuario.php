@@ -147,4 +147,23 @@ class Usuario extends BaseController
             ]);
         }
     }
+
+    /**
+     * Abrea view VISUALIZAR USUARIO
+     *
+     * @param [type] $id
+     * @return void
+     */
+    public function visualizar($id)
+    {
+        $usuario = $this->usuarioModel->find($id);
+        
+        $dados = [
+            'imagem'        => '../../assets/src/images/img_usuario.png',
+            'titulo'        => 'INFORMAÇÕES DA usuario',
+            'usuario'      => $usuario,
+            
+        ];
+        return view('usuario/visualizar', $dados);
+    }
 }

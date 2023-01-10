@@ -49,7 +49,7 @@ class Marca extends BaseController
     {
         $dados = [            
             'imagem'        => '../assets/src/images/img_tecido.png',
-            'titulo'        => 'ADICIONAR MARCA',            
+            'titulo'        => 'ADICIONAR MARCA'                       
         ];
         return view('marca/form', $dados);
     }
@@ -92,8 +92,8 @@ class Marca extends BaseController
         if (!is_null($marca)) {
             $dados = [
                 'marca'          => $marca,               
-                'titulo'          => 'EDITAR MARCA',
-                'imagem'          => '../../assets/src/images/img_tecido.png'
+                'titulo'         => 'EDITAR MARCA',
+                'imagem'         => '../../assets/src/images/img_tecido.png'                
             ];    
         return view('marca/form', $dados);
         } else {

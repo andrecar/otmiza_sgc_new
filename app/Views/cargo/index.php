@@ -61,7 +61,7 @@
 			<tbody>
 				<?php if (count($cargos) > 0 ) : ?>				
 					<?php foreach ($cargos as $cargo) : ?>
-						<tr>
+						<tr class=" text-primary">
 							<td><?php echo $cargo['descricao'] ?></td>
 							<td class=" text-center">
 								<div class="dropdown">

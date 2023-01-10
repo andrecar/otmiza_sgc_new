@@ -47,7 +47,7 @@
 		</a>
 	</div>
 	<div class="card-box">
-		<table class="table tabel-hover table-responsive-xl">
+		<table class="table table-hover table-responsive-xl">
 			<thead>
 				<tr>
 					<th>MARCA</th>	
@@ -59,7 +59,7 @@
 			<tbody>
 				<?php if (count($tecidos) > 0 ) : ?>				
 					<?php foreach ($tecidos as $tecido) : ?>
-						<tr>
+						<tr class="text-primary">
 							<td><?php echo $tecido['tecidos_marca_descricao'] ?></td>
 							<td><?php echo $tecido['tecidos_tipo'] ?></td>
 							<td><?php echo $tecido['tecidos_composicao'] ?></td>

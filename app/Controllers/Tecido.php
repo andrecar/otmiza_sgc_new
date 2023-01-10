@@ -54,7 +54,7 @@ class Tecido extends BaseController
     {
         $dados = [            
             'imagem'        => '../assets/src/images/img_tecido.png',
-            'titulo'        => 'TECIDO',
+            'titulo'        => 'NOVO TECIDO',
             'formDropDown'  => $this->marcaModel->orderBy('id', 'asc')->formDropDown(),
 
             'url'           => '../tecido', 
@@ -150,7 +150,7 @@ class Tecido extends BaseController
     }
 
     /**
-     * chama o modal visualizar modelo.
+     * chama o modal visualizar TECIDO.
      *
      * @param [type] $id
      * @return void
@@ -163,7 +163,7 @@ class Tecido extends BaseController
 
         $dados = [
             'imagem'            => '../../assets/src/images/img_tecido.png',
-            'titulo'            => 'INFORMAÇÕES DO MODELO',
+            'titulo'            => 'INFORMAÇÕES DO TECIDO',
             'tecidos'           => $tecidos,
             'marcaTecidos'      => $marcaTecidos,           
         ];

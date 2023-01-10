@@ -63,8 +63,7 @@
 					<th>CADASTRO</th>
 					<th>CPF/CNPJ</th>
 					<th class="text-center">CONTATOS</th>
-					<th class="text-center">OPÇÕES</th>	
-					<th></th>													
+					<th class="text-center">OPÇÕES</th>					
 				</tr>
 			</thead>
 			<tbody>

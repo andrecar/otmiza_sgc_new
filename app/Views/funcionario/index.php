@@ -39,8 +39,8 @@
 <div class="pd-10 card-box mb-10">
 	<div class="clearfix">		
 		<a href="<?php echo base_url('funcionario/formulario') ?>">		
-		<button type="button" class="btn btn-outline-dark border-radius">
-		<i class="micon dw dw-price-tag"></i> 		
+		<button type="button" class="btn btn-outline-dark border-radius mb-2">
+		<i class="micon dw dw-user1"></i> 		
 				NOVO FUNCIONARIO
 		</button>
 		</a>
@@ -59,7 +59,7 @@
 			<tbody>
 				<?php if (count($funcionarios) > 0 ) : ?>				
 					<?php foreach ($funcionarios as $funcionario) : ?>
-						<tr>
+						<tr class=" text-primary">
 							<td><?php echo $funcionario['funcionarios_nome'] ?></td>
 							<td><?php echo $funcionario['cargo_descricao'] ?></td>
 							<td><?php echo $funcionario['funcionarios_telefone'] ?></td>

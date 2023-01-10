@@ -54,7 +54,7 @@ class Funcionario extends BaseController
     {
         $dados = [
             'imagem'        => '../assets/src/images/img_funcionario.png',
-            'titulo'        => 'FUNCIONARIOS',
+            'titulo'        => ' NOVO FUNCIONARIO',
 
             'formDropDown'  => $this->cargoModel->orderBy('id', 'asc')->formDropDown([
             'opcaoNova'     => true
@@ -65,13 +65,11 @@ class Funcionario extends BaseController
             'li_active'     => 'Formulário',
 
         ];
-
-
         return view('funcionario/form', $dados);
     }
 
        /**
-     * Salva no bando de dados na tabela funcionarios
+     * Salva no bando de dados na tabela FUNCIONARIO
      *
      * @return void
      */
@@ -103,7 +101,7 @@ class Funcionario extends BaseController
     } 
 
   /**
-     * Edita o formulario tecido com os campos populados.
+     * Edita o formulario FUNCIONÁRIO com os campos populados.
      *
      * @param [type] $id
      * @return void
@@ -156,6 +154,19 @@ class Funcionario extends BaseController
                 'link'     => '../Funcionario' 
             ]);
         }
+    }
+
+    public function visualizar($id)
+    {
+        $funcionario = $this->funcionarioModel->find($id);
+        
+        $dados = [
+            'imagem'        => '../../assets/src/images/img_funcionario.png',
+            'titulo'        => 'INFORMAÇÕES Do FUNCIONARIO',
+            'funcionario'      => $funcionario,
+            
+        ];
+        return view('funcionario/visualizar', $dados);
     }
 
 }

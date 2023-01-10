@@ -63,7 +63,7 @@
 			<tbody>
 				<?php if (count($modelos) > 0 ) : ?>				
 					<?php foreach ($modelos as $modelo) : ?>
-						<tr>
+						<tr class="text-primary">
 							<td class="col-1 text-center"><?php echo $modelo['modelo_referencia'] ?></td>
 							<td><?php echo $modelo['modelo_descricao'] ?></td>
 							<td><?php echo $modelo['cliente_nome'] ?></td>								

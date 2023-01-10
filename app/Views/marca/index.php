@@ -61,7 +61,7 @@
 			<tbody>
 				<?php if (count($marcas) > 0 ) : ?>				
 					<?php foreach ($marcas as $marca) : ?>
-						<tr>
+						<tr class="text-primary">
 							<td><?php echo $marca['descricao'] ?></td>
 							<td class=" text-center">
 								<div class="dropdown">

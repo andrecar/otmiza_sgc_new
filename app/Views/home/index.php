@@ -175,7 +175,7 @@
 				</thead>
 				<tbody>
 					<?php // foreach ($usuarios as $usuario) : ?>
-						<tr>
+						<tr class="text-primary">
 							<td><?php //echo $usuario['id'] ?>01</td> 
 							<td><?php //echo $usuario['id'] ?>25/07/2022</td> 
 							<td><?php //echo $usuario['nome'] ?>COLAGEM JEANS WEAR</td>
