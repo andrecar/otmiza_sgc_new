@@ -213,7 +213,7 @@
 					</li>
 					<li>
 						<a href="<?php echo base_url('estoque'); ?>" class="dropdown-toggle no-arrow">
-							<span class="micon dw dw-box-1"></span><span class="mtext">ESTOQUE</span>
+							<span class="micon dw dw-box-1"></span><span class="mtext">ESTOQUES</span>
 						</a>
 					</li>
 					<hr class="my-1 bg-light-green">

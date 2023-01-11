@@ -27,15 +27,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-8 col-md-8">
-				<label for="email" class="control-label mt-2 mb-0 ml-2" >E-MAIL</label>
-				<input type="email" name="email" id="email" class="form-control" value="<?php echo isset($usuario) ? $usuario['email'] : set_value('email') ?>">
-				<?php if (!empty($errors['email'])): ?>
-					<div class="alert alert-danger mt-2">
-						<?php echo $errors['email']; ?>
-					</div>
-				<?php endif; ?>	
-			</div>
+			
 			<div class="col-sm-4 col-md-4">
 				<label for="senha" class="control-label mt-2 mb-0 ml-2">SENHA</label>
 				<input type="password" name="senha" id="senha" class="form-control" value="<?php echo isset($usuario) ? $usuario['senha'] : set_value('senha') ?>">
@@ -45,9 +37,16 @@
 					</div>
 				<?php endif; ?>	
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-8 col-md-8">
+			<div class="col-sm-4 col-md-4">
+				<label for="rept_senha" class="control-label mt-2 mb-0 ml-2">REPETIR A SENHA</label>
+				<input type="password" name="rept_senha" id="rept_senha" class="form-control" value="<?php echo isset($usuario) ? $usuario['rept_senha'] : set_value('rept_senha') ?>">
+				<?php if (!empty($errors['rept_senha'])): ?>
+					<div class="alert alert-danger mt-2">
+						<?php echo $errors['rept_senha']; ?>
+					</div>
+				<?php endif; ?>	
+			</div>
+			<div class="col-sm-4 col-md-4">
 				<label for="telefone" class="control-label mt-2 mb-0 ml-2" >TELEFONE</label>
 				<input type="text" name="telefone" id="telefone" class="form-control" data-mask="(##)#.####-####" value="<?php echo isset($usuario) ? $usuario['telefone'] : set_value('telefone') ?>">
 				<?php if (!empty($errors['telefone'])): ?>
@@ -56,7 +55,18 @@
 					</div>
 				<?php endif; ?>	
 			</div>
-			<div class="col-md-4">
+		</div>	
+		<div class="row">	
+			<div class="col-sm-6 col-md-6">
+				<label for="email" class="control-label mt-2 mb-0 ml-2" >E-MAIL</label>
+				<input type="email" name="email" id="email" class="form-control" value="<?php echo isset($usuario) ? $usuario['email'] : set_value('email') ?>">
+				<?php if (!empty($errors['email'])): ?>
+					<div class="alert alert-danger mt-2">
+						<?php echo $errors['email']; ?>
+					</div>
+				<?php endif; ?>	
+			</div>		
+			<div class="col-sm-6 col-md-6">
 				<label for="permissao_id" class="control-label mt-2 mb-0 ml-2">Permissão</label>
 				<?php $options = [
 						'' => 'Selecionar...',	                           

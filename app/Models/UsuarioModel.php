@@ -21,6 +21,7 @@ class UsuarioModel extends BaseModel
         'login',
         'email',
         'senha',
+        'rept_senha',
         'telefone',
         'permissao_id'
     ]; 
@@ -45,6 +46,10 @@ class UsuarioModel extends BaseModel
         'senha' => [
             'label' => 'SENHA',
             'rules'  => 'required'            
+        ],
+        'rept_senha' => [
+            'label' => 'RETEPIR A SENHA',
+            'rules'  => 'required|matches[senha]'            
         ],
         'telefone' => [
             'label' => 'TELEFONE',

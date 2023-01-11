@@ -9,15 +9,19 @@ class EstocarModel extends BaseModel
 
     protected $allowedFields = [       
         'estoque_id',
-        'quantidade',
-        'unidade',
+        'rolo_numero',
+        'quantidade',        
         'largura'
     ]; 
 
     protected $validationRules = [
-        'tamanho' => [
-            'label'  => 'TAMANHO',
+        'rolo_numero' => [
+            'label'  => 'NÚMERO DO ROLO',
             'rules'  => 'required'
         ],
+        'quanidade' => [
+            'label'  => 'QUANTIDADE',
+            'rules'  => 'required'
+        ],        
     ]; 
 }

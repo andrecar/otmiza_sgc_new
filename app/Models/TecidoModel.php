@@ -20,6 +20,7 @@ class TecidoModel extends BaseModel
         'usuarios_id',
         'marca_id',
         'tipo',
+        'und',
         'composicao'
     ];
 
@@ -48,6 +49,7 @@ class TecidoModel extends BaseModel
             $this->select("
                 tecidos.id              as  tecidos_id,
                 tecidos.tipo            as  tecidos_tipo,
+                tecidos.und             as  tecidos_und,
                 tecidos.composicao      as  tecidos_composicao,            
                 marcas.descricao        as  tecidos_marca_descricao,
                 marcas.id               as  tecidos_marca_id,

@@ -33,7 +33,24 @@
 					</div>
 				<?php endif; ?>	
 			</div>
-		</div>			
+		</div>				
+		<div class="row">
+			<div class="col-sm-3 col-md-3">
+				<label for="und" class="control-label mt-2 mb-0 ml-2">UND</label>
+				<?php $options = [
+					'' => 'Selecionar...',	                           
+					'mt' => 'METRO',
+					'kg' => 'KILO',
+					
+					] ; ?>
+				<?php echo form_dropdown('und', $options, !empty($tecido['und']) ? $tecido['und'] : set_value('und'), ['id' => 'und', 'class' => 'custom-select'])?>
+				<?php if (!empty($errors['und'])): ?>
+					<div class="alert alert-danger mt-2">
+						<?php echo $errors['und']; ?>
+					</div>
+				<?php endif; ?>	
+			</div>
+		</div>						
 		<div class="row">		
 			<div class="col-sm-6 col-md-6">
 				<label for="composicao" class="control-label mt-2 mb-0 ml-2"> COMPOSIÇÃO </label>

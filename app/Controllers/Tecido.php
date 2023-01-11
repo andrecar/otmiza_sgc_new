@@ -28,7 +28,7 @@ class Tecido extends BaseController
                         ->addPesquisar($pesquisar, 'tipo', true)                                              
                         ->addPesquisar($pesquisar, 'composicao', true)                                              
                         ->addUserId($this->session->id_usuario)                        
-                        ->orderBy('tecidos_id', 'desc')
+                        ->orderBy('descricao')
                         ->getAllMarcas();
                         //->paginate();
         $dados = [
@@ -55,7 +55,7 @@ class Tecido extends BaseController
         $dados = [            
             'imagem'        => '../assets/src/images/img_tecido.png',
             'titulo'        => 'NOVO TECIDO',
-            'formDropDown'  => $this->marcaModel->orderBy('id', 'asc')->formDropDown(),
+            'formDropDown'  => $this->marcaModel->orderBy('descricao')->formDropDown(),
 
             'url'           => '../tecido', 
             'li_item'       => 'Tecido',         

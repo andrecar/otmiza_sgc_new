@@ -52,6 +52,7 @@
 				<tr>
 					<th>MARCA</th>	
 					<th>TIPO</th>
+					<th class="text-center">UND</th>
 					<th>COMPOSIÇÃO</th>					
 					<th class="text-center">OPÇÕES</th>					
 				</tr>
@@ -62,6 +63,7 @@
 						<tr class="text-primary">
 							<td><?php echo $tecido['tecidos_marca_descricao'] ?></td>
 							<td><?php echo $tecido['tecidos_tipo'] ?></td>
+							<td class="text-center"><?php echo $tecido['tecidos_und'] ?></td>
 							<td><?php echo $tecido['tecidos_composicao'] ?></td>
 							<td class=" text-center">
 								<div class="dropdown">
