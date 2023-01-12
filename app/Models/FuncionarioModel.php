@@ -19,8 +19,8 @@ class FuncionarioModel extends BaseModel
  
     protected $allowedFields = [        
        'usuarios_id',
+       'cargo_id',
        'nome',
-       'descricao',
        'telefone'
     ]; 
 
@@ -49,8 +49,8 @@ class FuncionarioModel extends BaseModel
             $this->select("
                 funcionarios.id              as  funcionarios_id,
                 funcionarios.nome            as  funcionarios_nome,
-                cargos.descricao             as  cargo_descricao,            
                 funcionarios.telefone        as  funcionarios_telefone,
+                cargos.descricao             as  cargo_descricao,            
             ");
 
             $this->join('cargos', 'cargos.id = funcionarios.cargo_id');

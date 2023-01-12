@@ -50,14 +50,13 @@
 		</a>
 	</div>
 	<div class="card-box">
-		<table class="data-table table hover nowrap">
-			<thead class="text-danger font-italic">
+		<table class="table table-hover table-responsive-xl">
+			<thead">
 				<tr>
-					<th class="table-plus datatable-nosort">ID</th>
-					<th>REF. - estoque</th>	
 					<th>CLIENTE</th>
-					<th>GRADE</th>
-					<th class="datatable-nosort">OPÇÃO</th>
+					<th>TECIDOS</th>
+					<th>MARCA</th>
+					<th class="text-center">OPÇÃO</th>
 					
 				</tr>
 			</thead>
@@ -65,9 +64,9 @@
 				<?php if (count($estoques) > 0 ) : ?>				
 					<?php foreach ($estoques as $estoque) : ?>
 						<tr>
-							<td class="table-plus font-weight-bolder"><?php echo $estoque['estoques_id'] ?></td>
-							<td><?php echo $estoque['estoques_cliente'] ?></td>
-							<td><?php echo $estoque['estoques_tec_marca']. "  -  " .$estoque['estoques_tec_tipo']."  -  ".$estoque['estoques_quantidade'] ?></td>
+							<td><?php echo $estoque['estoque_cliente_nome'] ?></td>
+							<td><?php echo $estoque['estoque_tecido_tipo']?></td>
+							<td><?php echo $estoque['']?></td>
 							<td>
 								<div class="dropdown">
 									<button class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle" href="#" role="button" data-toggle="dropdown">

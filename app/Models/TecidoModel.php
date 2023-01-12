@@ -46,17 +46,17 @@ class TecidoModel extends BaseModel
      */
     public function getAllMarcas() 
     {
-            $this->select("
-                tecidos.id              as  tecidos_id,
-                tecidos.tipo            as  tecidos_tipo,
-                tecidos.und             as  tecidos_und,
-                tecidos.composicao      as  tecidos_composicao,            
-                marcas.descricao        as  tecidos_marca_descricao,
-                marcas.id               as  tecidos_marca_id,
-            ");
+        $this->select("
+            tecidos.id              as  tecidos_id,
+            tecidos.tipo            as  tecidos_tipo,
+            tecidos.und             as  tecidos_und,
+            tecidos.composicao      as  tecidos_composicao,            
+            marcas.descricao        as  tecidos_marca_descricao,
+            marcas.id               as  tecidos_marca_id,
+        ");
 
-            $this->join('marcas', 'marcas.id = tecidos.marca_id');
-            return $this->findAll();
+        $this->join('marcas', 'marcas.id = tecidos.marca_id');            
+        return $this->findAll();
     }
 }
 

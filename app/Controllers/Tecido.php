@@ -31,6 +31,7 @@ class Tecido extends BaseController
                         ->orderBy('descricao')
                         ->getAllMarcas();
                         //->paginate();
+    
         $dados = [
             'tecidos'       =>  $tecidos,
             'pesquisar'     =>  $pesquisar,
