@@ -26,29 +26,46 @@ class Estoque extends BaseController
     {        
         $pesquisar = $this->request->getGet('pesquisar'); 
 
-        $clientes = $this->clienteModel->getComTecidos();
-       
-        $estoques = $this->estoqueModel
-                        ->addPesquisar($pesquisar, 'cliente_id', true)    
-                        ->addPesquisar($pesquisar, 'tecido_id', true)  
+
+
+
+        $clientes = $this->clienteModel
                         ->addUserId($this->session->id_usuario)
-                        ->orderBy('cliente_id')                           
-                        ->getAllClientes();
-                        //->paginate(5)
+                        ->orderBy('cliente_nome_razao')
+                        ->getComEstoques()
                         ;
-                      
-        
 
+        //$estoques = $this->estoqueModel->getComEstoqueId();
+      
+        //Agora, para cada CLIENTE, eu busco os seus respectivos estoques.  
+        $resultClientes = [];
+        foreach($clientes as $cliente){
+            $estoques = $this->estoqueModel->getByIdCliente($cliente['id_cliente']);
 
+           
+           // foreach($estoques as $estoque){
+             //   $estocar = $this->estocarModel->getByIdEstoque($estoque['id_estoque']);
 
+       
+            $resultClientes[] = [
+                'cliente'  =>   $cliente['cliente_nome_razao'],
+                'estoque'  =>   $estoques,
+               // 'estocar'  =>   $estocar
+           
+            ];
 
+          //  }          
+        }                
 
-
+        echo '<pre>';
+        print_r($resultClientes);
+       
+       
 
 
          
         $dados = [    
-            'estoques'       => $estoques,            
+                       
             'pesquisar'     => $pesquisar,            
             'paginacao'     => $this->estoqueModel->pager,            
 
@@ -59,7 +76,7 @@ class Estoque extends BaseController
             'li_item'       => 'Home',         
             'li_active'     => 'Estoques'            
         ];        
-        return view('estoque/index', $dados);
+       // return view('estoque/index', $dados);
     }
 
    

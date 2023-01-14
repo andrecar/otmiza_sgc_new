@@ -66,4 +66,26 @@ class ClienteModel extends BaseModel
         return ($SelecioneConteudo);
     }
 
+
+    /**
+     * Retorna todos clientes que possuem ESTOQUES
+     *
+     * @return void
+     */
+    public function getComEstoques()
+    {
+        $this->select(" 
+            clientes.usuarios_id,
+            clientes.id             as id_cliente,           
+            clientes.nome_razao     as  cliente_nome_razao,
+            estoques.id             as  id_estoque,                
+        ");
+        //Lança tabela ESTOQUES na Query getComEstoque
+        $this->join('estoques', 'estoques.cliente_id = clientes.id');
+        //Agrupa todos registros do CLIENTE pelo nome.
+        $this->groupBy('cliente_nome_razao');
+        return $this->findAll();
+
+    }
+
 }

@@ -18,7 +18,7 @@ class EstoqueModel extends BaseModel
 
     protected $allowedFields = [ 
         'usuarios_id',
-        'cliente_id',
+        'cliente_id',        
         'tecido_id'        
     ];
 
@@ -33,32 +33,45 @@ class EstoqueModel extends BaseModel
         ]
     ];
 
-
-    public function getAllClientes() 
-    {
-       $this->select("
-            estoques.id                 as  estoque_id,     
-            clientes.nome_razao         as  estoque_cliente_nome,
-        ");                 
-        $this->join('clientes', 'clientes.id = estoques.cliente_id');                 
-        return $this->findAll();
-    }
-
-    public function getAllMarcas() 
+    /**
+     * Retorna todos os ESTOQUES vinculado a um CLIENTE.
+     *
+     * @param [type] $id_cliente
+     * @return void
+     */
+    public function getByIdCliente($id_cliente)
     {
         $this->select("
-            tecidos.id              as  tecidos_id,
-            tecidos.tipo            as  tecidos_tipo,
-            tecidos.und             as  tecidos_und,
-            tecidos.composicao      as  tecidos_composicao,            
-            marcas.descricao        as  tecidos_marca_descricao,
-            marcas.id               as  tecidos_marca_id,
-        ");
-
-        $this->join('marcas', 'marcas.id = tecidos.marca_id');            
-        return $this->findAll();
+            estoques.id as id_estoque,
+            estoques.usuarios_id,
+            estoques.tecido_id as id_tecido,  
+            tecidos.tipo as tipo_tecido, 
+            marcas.id as id_marcas,
+            marcas.descricao as marca_descricao
+            ");
+            $this->where('cliente_id', $id_cliente);
+            $this->join('tecidos', 'tecidos.id = estoques.tecido_id');
+            $this->join('marcas', 'marcas.id = tecidos.marca_id');
+        return $this->findAll();    
     }
-    
-    
+
+    /**
+     * Retorna todos ESTOQUE que possuem rolos
+     *
+     * @return void
+     */
+    public function getComEstoqueId()
+    {
+        $this->select(" 
+            estoques.id             as  id_estoque,                
+        ");
+        //Lança tabela ESTOQUES na Query getComEstoque
+        $this->join('estocar', 'estocar.estoque_id = estoques.id');
+        //Agrupa todos registros do TECIDO pelo ID.
+        $this->groupBy('tecido_id');
+        return $this->findAll();
+
+    }
+   
 }   
 
