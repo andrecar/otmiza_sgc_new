@@ -68,7 +68,7 @@ class ClienteModel extends BaseModel
 
 
     /**
-     * Retorna todos clientes que possuem ESTOQUES
+     * Retorna todos CLIENTES que possuem ESTOQUES
      *
      * @return void
      */

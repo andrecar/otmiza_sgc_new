@@ -43,11 +43,12 @@ class EstoqueModel extends BaseModel
     {
         $this->select("
             estoques.id as id_estoque,
+            estoques.data_cadastrada,
             estoques.usuarios_id,
-            estoques.tecido_id as id_tecido,  
-            tecidos.tipo as tipo_tecido, 
-            marcas.id as id_marcas,
-            marcas.descricao as marca_descricao
+            estoques.tecido_id as id_tecido,            
+            estoques.tecido_id as id_tecido,           
+            marcas.descricao as marca_descricao,
+            tecidos.tipo as tecido_tipo
             ");
             $this->where('cliente_id', $id_cliente);
             $this->join('tecidos', 'tecidos.id = estoques.tecido_id');
@@ -55,23 +56,5 @@ class EstoqueModel extends BaseModel
         return $this->findAll();    
     }
 
-    /**
-     * Retorna todos ESTOQUE que possuem rolos
-     *
-     * @return void
-     */
-    public function getComEstoqueId()
-    {
-        $this->select(" 
-            estoques.id             as  id_estoque,                
-        ");
-        //Lança tabela ESTOQUES na Query getComEstoque
-        $this->join('estocar', 'estocar.estoque_id = estoques.id');
-        //Agrupa todos registros do TECIDO pelo ID.
-        $this->groupBy('tecido_id');
-        return $this->findAll();
-
-    }
-   
 }   
 
