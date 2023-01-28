@@ -21,6 +21,8 @@ class BaseModel extends Model
            ###### METODOS PUBLICOS #####
     #############################################
 
+    
+
     /**
      *  Injeta a busca o id dentro da query
      *

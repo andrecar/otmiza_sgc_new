@@ -1,0 +1,35 @@
+CRITICAL - 2023-01-28 12:52:19 --> Undefined property: App\Controllers\Estoque::$rolosModel
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Estoque.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Estoque->index()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estoque))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-28 12:54:19 --> Undefined property: App\Controllers\Estoque::$rolosModel
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Estoque.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Estoque->index()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estoque))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-28 13:01:35 --> Undefined array key "id_estoque"
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Estoque.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Estoque->index()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estoque))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-28 13:02:52 --> Undefined array key "id_estoque"
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Estoque.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Estoque->index()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estoque))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-28 19:28:41 --> Undefined variable $cliente
+#0 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Estoque.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Estoque->index()
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estoque))
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

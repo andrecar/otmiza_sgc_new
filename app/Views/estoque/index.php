@@ -44,7 +44,7 @@
 	<div class="clearfix">		
 		<a href="<?php echo base_url('estoque/formulario') ?>">		
 		<button type="button" class="btn btn-outline-dark border-radius mb-2">
-		<i class="micon dw dw-sheet"></i> 		
+		<i class="micon dw dw-box-1"></i> 		
 				NOVO ESTOQUE
 		</button>
 		</a>
@@ -54,17 +54,20 @@
 			<thead">
 				<tr>
 					<th>CLIENTE/TECIDOS</th>
-					<th class="text-center">QUANTIDADE</th>
+					<th class="text-center">QUANT. ROLOS</th>
+					<th class="text-center">METRAGEM</th>
 					<th class="text-center">OPÇÃO</th>
 					
 				</tr>
 			</thead>
 			<tbody>
-				<?php if (count($clientes) > 0 ) : ?>				
-					<?php foreach ($clientes as $cliente) : ?>
+				<?php if (count($estoques) > 0 ) : ?>				
+					<?php foreach ($estoques as $estoque) : ?>
 						<tr>
-							<td colspan="2" class="font-weight-bold"><?php echo $cliente['cliente'] ?></td>
-							<td class="text-center" >
+							<td colspan="3" class="bg-light-orange border-radius-10">
+								<h6 class=" text-white-50"><?php echo $estoque['cliente'] ?></h6>
+							</td>
+							<td class="text-center bg-light-orange border-radius-10" >
 								<div class="dropdown">
 									<button class="btn btn-link font-24 p-0 line-height-1 no-arrow dropdown-toggle" href="#" role="button" data-toggle="dropdown">
 										<i class="dw dw-more"></i>
@@ -77,9 +80,10 @@
 								</div> 	
 							</td>	
 						</tr>
-						<?php foreach ($cliente['estoque'] as $estoque) : ?>
+						<?php foreach ($estoque['estoque'] as $estoque) : ?>
 							<tr class=" text-primary">
 								<td class="pl-5"><?php echo $estoque['marca_descricao']. ' - ' .$estoque['tecido_tipo'] ?></td>
+								<td class="text-center"> 10 - rolos</td>
 								<td class="text-center"> 755,0 - mt</td>
 								
 							</tr>
