@@ -51,14 +51,23 @@ class Estoque extends BaseController
         }
         //dd($resultEstoques);
 
+        $estoqueMetragens = $this->estoqueModel->getComRolos();     
+
+        $resultMetragens = [];
+        foreach ($estoqueMetragens as $estoque){
+
+            $Metragem = $this->roloModel->getByIdEstoque($estoque['id_estoque']);
+
+            $resultMetragens[] = [
+                'tecido' => $estoque['tecido_tipo'],
+                'metragens' => $Metragem
+            ];
+        }
         
-        $resultMetragem = $this->roloModel->getAll();
-        dd($resultMetragem);
-
-
 
         $dados = [
             'estoques'      =>  $resultEstoques,
+            'metragens'      =>  $resultEstoques,
             
             'url'           => 'home', 
             'li_item'       => 'Home',         
