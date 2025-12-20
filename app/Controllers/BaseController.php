@@ -40,6 +40,9 @@ class BaseController extends Controller
     /**
      * Constructor.
      */
+
+    protected $session;
+
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
     {
         // Do Not Edit This Line
