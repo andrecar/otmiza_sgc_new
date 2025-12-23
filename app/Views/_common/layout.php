@@ -6,10 +6,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>SGC - Otmiza Sistemas New</title>
 
-	<!-- Site favicon -->
+	<!-- Site favicon
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url('assets/src/images/favicon.png') ?>">
 	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url('assets/src/images/favicon.png') ?>">
 	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('assets/src/images/favicon.png') ?>">
+	 -->
+
+	<link rel="apple-touch-icon" sizes="180x180" 	href="<?php echo base_url('vendors/images/apple-touch-icon.png') ?>">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url('vendors/images/favicon-32x32.png') ?>">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('vendors/images/favicon-16x16.png') ?>">
 
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -17,22 +22,49 @@
 	<!-- Google Font -->	
 	<link rel="stylesheet" href="<?php echo base_url('assets/src/fonts/font-googlepis.css') ?>">
 
+	<!-- Site favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" 	href="<?php echo base_url('vendors/images/apple-touch-icon.png') ?>">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo base_url('vendors/images/favicon-32x32.png') ?>">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('vendors/images/favicon-16x16.png') ?>">
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('vendors/styles/core.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('vendors/styles/icon-font.min.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('src/plugins/datatables/css/dataTables.bootstrap4.min.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('src/plugins/datatables/css/responsive.bootstrap4.min.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('src/plugins/jquery-asColorPicker/dist/css/asColorPicker.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('vendors/styles/style.css') ?>">
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
+	<!-- Sweetalert2 -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>	
+
+	<!-- CSS -->
+	 <!--
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/vendors/styles/core.css') ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/vendors/styles/icon-font.min.css') ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/src/plugins/datatables/css/dataTables.bootstrap4.min.css') ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/src/plugins/datatables/css/responsive.bootstrap4.min.css') ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/vendors/styles/style.css') ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/src/styles/my_style.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/src/styles/my_style.css') ?>">-->
 	
 	<!-- CSS Cadendar -->
+	 <!--
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/src/plugins/fullcalendar/fullcalendar.css') ?>">
-	
+	-->
 	<!-- JS para abrir Modal - obs: Só funciona se ficar aqui em cima -->
+	<!--
 	<script src="<?php echo base_url('assets/src/scripts/jquery-1.11.0.min.js') ?>"></script>
-	
+	-->	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script src="<?php echo base_url('assets/src/scripts/googletagmanager.js') ?>"></script>
+	<!--
+	<script src="<?php echo base_url('assets/src/scripts/googletagmanager.js') ?>"></script> -->
+
+<!-- __________________________________________________________________-->$_COOKIE
+ 
+
 
 	<script>		
 		// Função veio junto com o pacote DeskApp - Boostrap		
@@ -259,40 +291,43 @@
 			© 2022 Otmiza - André Carlos (81) 9 9105-1938			
 	</div>
 
-<!-- JS Gerais -->
-<script src="<?php echo base_url('assets/src/scripts/jquery.js') ?>"></script>
-<script src="<?php echo base_url('assets/vendors/scripts/core.js') ?>"></script>
-<script src="<?php echo base_url('assets/vendors/scripts/script.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/vendors/scripts/process.js') ?>"></script>
-<script src="<?php echo base_url('assets/vendors/scripts/layout-settings.js') ?>"></script>
-<script src="<?php echo base_url('assets/src/plugins/apexcharts/apexcharts.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/src/plugins/datatables/js/jquery.dataTables.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/src/plugins/datatables/js/dataTables.bootstrap4.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/src/plugins/datatables/js/dataTables.responsive.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/src/plugins/datatables/js/responsive.bootstrap4.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/vendors/scripts/dashboard.js') ?>"></script>
+<!-- js para GRÁFICOS este teve que ficar aqui em cima para não dar erro na tabela -->
+	<script src="<?php echo base_url('src/plugins/apexcharts/apexcharts.min.js') ?>"></script>
+	<script src="<?php echo base_url('vendors/scripts/dashboard.js') ?>"></script>
+	<!-- js GERAIS -->
+	<script src="<?php echo base_url('vendors/scripts/core.js') ?>"></script>
+	<script src="<?php echo base_url('vendors/scripts/script.min.js') ?>"></script>
+	<script src="<?php echo base_url('vendors/scripts/process.js') ?>"></script>
+	<script src="<?php echo base_url('vendors/scripts/layout-settings.js') ?>"></script>	
+	<!-- js para TABELAS -->
+	<script src="<?php echo base_url('src/plugins/datatables/js/jquery.dataTables.min.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/datatables/js/dataTables.bootstrap4.min.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/datatables/js/dataTables.responsive.min.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/datatables/js/responsive.bootstrap4.min.js') ?>"></script>	
+	<!-- buttons for Export datatable -->
+	<script src="<?php echo base_url('src/plugins/datatables/js/dataTables.buttons.min.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/datatables/js/buttons.bootstrap4.min.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/datatables/js/buttons.print.min.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/datatables/js/buttons.html5.min.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/datatables/js/buttons.flash.min.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/datatables/js/pdfmake.min.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/datatables/js/vfs_fonts.js') ?>"></script>
+	<!-- Datatable Setting js -->
+	<script src="<?php echo base_url('vendors/scripts/datatable-setting.js') ?>"></script>
+	<!-- Js para input color -->
+	<script src="<?php echo base_url('src/plugins/jquery-asColor/dist/jquery-asColor.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/jquery-asGradient/dist/jquery-asGradient.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/jquery-asColorPicker/jquery-asColorPicker.js') ?>"></script>
+	<script src="<?php echo base_url('vendors/scripts/colorpicker.js') ?>"></script>
+	<!-- JS para mascara -->
+	<script src="<?php echo base_url('vendors/scripts/jquery.mask.min.js') ?>"></script>
+	<!-- add sweet alert js & css in footer -->
+	<script src="<?php echo base_url('src/plugins/sweetalert2/sweetalert2.all.js') ?>"></script>
+	<script src="<?php echo base_url('src/plugins/sweetalert2/sweet-alert.init.js') ?>"></script>
 
-<!-- JS calendar -->
-<script src="<?php echo base_url('assets/src/plugins/fullcalendar/fullcalendar.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/src/scripts/calendar-setting.js') ?>"></script>
 	
-<!-- JS para mascara -->
-<script src="<?php echo base_url('assets/src/scripts/jquery.mask.min.js') ?>"></script>
 
-<!-- JS Bootstrap -->
-<script src="<?php echo base_url('assets/src/plugins/bootstrap/bootstrap.js') ?>"></script>
-<script src="<?php echo base_url('assets/src/plugins/bootstrap/bootstrap.min.js') ?>"></script>
 
-<!-- JS sweetalert -->
-<script src="<?php echo base_url('assets/src/plugins/sweetalert2/sweetalert2.all.js') ?>"></script>
-<script src="<?php echo base_url('assets/src/plugins/sweetalert2/sweet-alert.init.js') ?>"></script>
-<!-- switchery js -->
-<script src="<?php echo base_url('assets/src/plugins/switchery/switchery.min.js') ?>"></script>
-<!-- bootstrap-tagsinput js -->
-<script src="<?php echo base_url('assets/src/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js')?> "></script>
-<!-- bootstrap-touchspin js -->
-<script src="<?php echo base_url('assets/src/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js')?> "></script>
-<script src="<?php echo base_url('assets/src/scripts/advanced-components.js')?> "></script>
 
 </body>
 </html

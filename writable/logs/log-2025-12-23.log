@@ -1,0 +1,25 @@
+CRITICAL - 2025-12-23 19:27:14 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 {main}
+CRITICAL - 2025-12-23 19:33:05 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 {main}
+CRITICAL - 2025-12-23 19:33:10 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 {main}
+CRITICAL - 2025-12-23 19:35:43 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 {main}
+CRITICAL - 2025-12-23 19:38:07 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 {main}
+ERROR - 2025-12-23 19:47:20 --> Table 'db_sgc_new.tecidos' doesn't exist in engine
+CRITICAL - 2025-12-23 19:47:20 --> Table 'db_sgc_new.tecidos' doesn't exist in engine
+#0 C:\xampp\htdocs\otmiza_sgc_new\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tecidos...', 0)
+#1 C:\xampp\htdocs\otmiza_sgc_new\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tecidos...')
+#2 C:\xampp\htdocs\otmiza_sgc_new\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tecidos...')
+#3 C:\xampp\htdocs\otmiza_sgc_new\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tecidos...', Array, false)
+#4 C:\xampp\htdocs\otmiza_sgc_new\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\otmiza_sgc_new\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\otmiza_sgc_new\app\Models\TecidoModel.php(59): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\otmiza_sgc_new\app\Controllers\Tecido.php(32): App\Models\TecidoModel->getAllMarcas()
+#8 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(825): App\Controllers\Tecido->index()
+#9 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tecido))
+#10 C:\xampp\htdocs\otmiza_sgc_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\otmiza_sgc_new\public\index.php(65): CodeIgniter\CodeIgniter->run()
+#12 {main}
